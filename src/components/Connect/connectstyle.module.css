@@ -1,0 +1,144 @@
+.main{
+    width: 90%;
+    height: 71.2vh;
+    padding-inline: 5%;
+    padding-top: 7vh;
+    background-color: black;
+    padding-bottom: 5vh;
+    overflow: hidden;
+}
+
+.links{
+    color: inherit;
+}
+
+.mail{
+    text-decoration: none;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+}
+
+.title{
+    font-size: 3rem;
+    font-family: 'Patua One', cursive;
+    color: white;
+    width: 30%;
+}
+
+
+.subtitle{
+    color: #FFCF00;
+}
+
+.icons{
+    color: aliceblue;
+    font-size: 1.6rem;
+    width: 70%;
+    display: flex;
+    justify-content:right;
+}
+.links{
+    padding-inline: min(2%,5px);
+}
+
+.body{
+    width: 100%;
+    /* border: 3px solid darkblue; */
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Patua One', cursive;
+
+}
+
+.flex1{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 88%;
+}
+
+.flex1div1{
+    font-size: 2.3rem;
+    width: 70%;
+    padding-bottom: 1rem;
+    text-align: start;
+    
+}
+
+.flex1div2{
+    font-size: 1.3rem;
+    width: 70%;
+    text-align: start;
+    padding-bottom: 1rem;
+}
+
+.flex1div3{
+    display: flex;
+    width: 70%;
+    height: 2.5rem;
+    gap: 1rem;
+}
+
+.icon{
+    font-size: 2.7rem;
+}
+
+.mailto{
+    display: flex;
+    flex-direction: column;
+    font-size:min(2rem,18px);
+    text-align: start;
+}
+
+.flex2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.flex2 img{
+    height: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .icons{
+        display: none;
+    }
+    .title{
+        width: 100%;
+    }
+    .body{
+        flex-direction: column;
+    }
+    .flex1{
+        width: 100%;
+        padding-left: 0;
+        height: 100%;
+    }
+    .flex1div2,.flex1div1,.flex1div3{
+        width: 90%;
+    }
+    .flex1div1{
+        font-size: 1.6rem;
+    }
+    .flex2{
+        width: 100%;
+    }
+    .flex2 img{
+        width: 100%;
+    }
+}

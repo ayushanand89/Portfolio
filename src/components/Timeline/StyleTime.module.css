@@ -1,0 +1,46 @@
+.main{
+    color: white;
+    width: 100%;
+    padding: 0;
+    /* padding-top: 1rem; */
+    height: 100%;
+    /* word-wrap: break-word; */
+}
+
+
+.heading{
+    font-size: 4vmax;
+    color: white;
+    color: #FFCF00;
+    font-family:  Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: 1.1px;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+.about{
+    font-size: 1.2rem;
+    letter-spacing: 1px; 
+    word-spacing: 0.5px;  
+    padding-bottom: 5%;
+    height:auto;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    border: 3px solid #FFCF00;
+    border-radius: 0.5rem;
+    height:  auto;
+}
+
+@media screen and (max-width: 768px) {
+    .heading{
+        font-size: 7.5vmax;
+    }
+    .about{
+        font-weight: 400;
+    }
+}
+/* TOTAL HEIGHT = 100%  = HEADING(18%) + ABOUT(27%) + */

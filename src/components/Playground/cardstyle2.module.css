@@ -1,0 +1,57 @@
+.main{
+    width: 77%;
+    max-width: 265px;
+    min-width: 200px;
+    padding-top: 1rem;
+    margin-inline: auto;
+    padding-bottom: 10%;
+    margin-right: 1.4rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+    background-color: rgba(103, 220, 103, 0.653);
+    transform: rotate(4deg);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:ease-in-out all 1s ;
+    display: flex;
+    flex-direction: column;
+}
+
+.main:hover{
+    transform: rotate(-1deg);
+}
+
+.w80{
+    margin-inline: auto;
+    width: 70%;
+    overflow: hidden;
+}
+
+.img{
+    scale: 1.1;
+    width: 100%;
+    
+}
+
+.des{
+    font-size: 1.1rem;
+}
+
+.pin{
+    position: absolute;
+    left: 35%;
+    top: -10%;
+    width: 5rem;
+    z-index: 3;
+}
+
+.title{
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+
+    .pin{
+        display: none;
+    }
+}
