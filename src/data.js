@@ -6,7 +6,7 @@ export const data = {
   githublink: "https://github.com/ayushanand89",
   workField: "web developer",
   cvlink:
-    "https://drive.google.com/file/d/1UufdHNmvwSdqSZ7w9fO0ZLTQsGOOMg1m/view?usp=sharing",
+    "https://drive.google.com/file/d/1fmwKweAS6TfTr3kyRwsDtDu_bSFFbeUg/view?usp=sharing",
   linkedinLink: "https://www.linkedin.com/in/ayush-anand-a91919266/",
   onelineyou:
     "Aspiring web developer, passionate about creating engaging and interactive web experiences using modern technologies.",
